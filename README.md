@@ -57,9 +57,9 @@ todo-app/
 ├── public/              # Public assets and index.html
 ├── src/                 # Application source code
 │   ├── components/      # React components
-│   ├── store/           # Redux store configuration
-│   ├── styles/          # CSS styles
-│   └── App.js           # Main application component
+│   ├── Redux/            # Redux store configuration
+    |--ReduxFeature/todo/ # Redux Slicess configuration    
+│   └── App.js           # Main application file
 ├── .gitignore           # Git ignore file
 ├── package.json         # NPM package configuration
 └── README.md            # Project README
